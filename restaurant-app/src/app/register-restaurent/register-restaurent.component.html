@@ -1,0 +1,29 @@
+<div class="my-nav">
+    <div class="v-spacer"></div>
+    <div class="jumbotron">
+        <h1>Reister User for Restaurent</h1>
+    </div>
+    <!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Weldone!</strong> Your Restaurent added successfully!
+        <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div> -->
+    <form [formGroup]="createUser" (ngSubmit)="regUser()">
+        <div class="form-group">
+            <label>Name</label>
+            <input formControlName="name" type="text" class="form-control" placeholder="Enter Name ">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input formControlName="Email" type="email" class="form-control" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+            <label>Passward</label>
+            <input formControlName="password" type="password" class="form-control" placeholder="Enter password ">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-secondary">Forgot Passward</button>
+    </form>
+</div>

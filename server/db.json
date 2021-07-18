@@ -1,0 +1,69 @@
+{
+  "restaurents": [
+    {
+      "id": 1,
+      "name": "Govindas Restaurent - Mumbai",
+      "Address": "HR Mahajani road, Matunga, Mumbai-400019",
+      "Phone": "022-46250",
+      "Email": "govindaj.mumbai@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Govindas Restaurent - Pune",
+      "Address": "Katraj, Pune",
+      "Phone": "022-46251",
+      "Email": "govindaj.pune@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Govindas Restaurent - Nagpur",
+      "Address": "Nagpur",
+      "Phone": "022-46252",
+      "Email": "govindaj.nagpur@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Govindas Restaurent - Delhi",
+      "Address": "Delhi",
+      "Phone": "022-46253",
+      "Email": "govindaj.delhi@gmail.com"
+    },
+    {
+      "name": "Govindaj Beed",
+      "Address": "Beed",
+      "Email": "govindaj.beed@gmail.com",
+      "Phone": "9112669366",
+      "id": 5
+    },
+    {
+      "name": "Govindaj Aurangabad",
+      "Address": "Aurangabad",
+      "Email": "govindaj.aurangbad@gmail.com",
+      "Phone": "8788491800",
+      "id": 6
+    },
+    {
+      "name": "",
+      "Address": "",
+      "Email": "",
+      "Phone": "",
+      "id": 7
+    },
+    {
+      "name": "Samadhan",
+      "Address": "Beed",
+      "Email": "ss@gmail.com",
+      "Phone": "8888889999",
+      "id": 8
+    }
+  ],
+  "Users": [
+    {
+      "name": "Sam",
+      "Address": "",
+      "Email": "sam@2gmail.com",
+      "Phone": "",
+      "id": 1
+    }
+  ]
+}

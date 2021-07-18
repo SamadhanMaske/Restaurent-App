@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand" routerLink="/">Resto App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse mynav" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="add">Add Resto </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="update">Update Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="list">List Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="login">Login Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="register">Register Resto</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<div class="footer">
+  <p>Copyright By &copy; Sam</p>
+</div>
+
+<!-- <app-add-restaurent></app-add-restaurent>
+<app-list-restaurent></app-list-restaurent>
+<app-login-restaurent></app-login-restaurent>
+<app-update-restaurent></app-update-restaurent>
+<app-register-restaurent></app-register-restaurent> -->
